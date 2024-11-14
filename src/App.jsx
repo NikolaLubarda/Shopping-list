@@ -1,12 +1,12 @@
+import { Outlet } from "react-router-dom";
 import "./App.css";
-import CategoriesList from "./components/CategoriesList";
-import ShoppingList from "./components/ShoppingList";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <>
-      <ShoppingList />
-      <CategoriesList />
+      <NavBar />
+      <Outlet />
     </>
   );
 }
